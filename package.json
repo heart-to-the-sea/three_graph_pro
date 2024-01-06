@@ -1,0 +1,28 @@
+{
+  "name": "three_pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@types/three": "^0.152.1",
+    "3d-force-graph": "^1.71.4",
+    "events": "^3.3.0",
+    "gsap": "^3.12.2",
+    "process-es6": "^0.11.6",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "three": "^0.153.0",
+    "three-forcegraph": "^1.41.9"
+  }
+}
